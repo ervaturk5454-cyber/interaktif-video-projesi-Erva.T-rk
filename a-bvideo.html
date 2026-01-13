@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dual Sync Video Switch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="wrap">
+
+  <div id="bgA" class="bg"></div>
+  <div id="bgB" class="bg"></div>
+
+  <div id="centerText">
+    Hayata bakış açısında sence sinirli olmaya gerek var mı?<br>
+    Aradaki farkı görmek için A - B tuşlarını kullan.
+  </div>
+
+  <button id="startBtn">▶ Başlat</button>
+
+ <video id="videoA" src="video1.mp4"></video>
+  <video id="videoB" src="video2.mp4"></video>
+
+  <div id="oyuncular">
+    <button data-img="beril.jpg">Oyuncu Beril</button>
+    <button data-img="seher.jpg">Oyuncu Seher</button>
+    <button data-img="meryem.jpg">Oyuncu Meryem</button>
+
+    <img id="sahne" src="beril.jpg" alt="Oyuncu">
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
